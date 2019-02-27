@@ -1,0 +1,1 @@
+{"version":3,"file":"main.49cde66214dc654ccb38.bundle.js","sources":["webpack:///./src/index.js"],"sourcesContent":["import React, { Component } from 'react';\nimport '../styles/button.scss';\n\nclass CustomButton extends Component {\n  render() {\n    return <button>Custom Button</button>;\n  }\n}\n\nexport default CustomButton;\n"],"mappings":"AAGA","sourceRoot":""}
