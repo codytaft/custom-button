@@ -3,7 +3,7 @@
   "module": "/dist/custom-button",
   "version": "1.0.0",
   "description": "A custom button for ReactJS",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack --config webpack.congig.js",
     "docs": "start-storybook -p 9001 -c .storybook",

@@ -6,4 +6,4 @@ class CustomButton extends Component {
   }
 }
 
-export default index;
+export default CustomButton;
