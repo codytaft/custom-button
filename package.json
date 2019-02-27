@@ -1,0 +1,37 @@
+{
+  "name": "@codylynn/custom-button",
+  "module": "/dist/custom-button",
+  "version": "1.0.0",
+  "description": "A custom button for ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpacl --config webpack.congig.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codytaft/custom-button.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codytaft/custom-button/issues"
+  },
+  "homepage": "https://github.com/codytaft/custom-button#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^4.1.13",
+    "@storybook/components": "^4.1.13",
+    "@storybook/react": "^4.1.13",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
+    "react": "^16.8.3",
+    "storybook-addon-jsx": "^6.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
