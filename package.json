@@ -5,7 +5,7 @@
   "description": "A custom button for ReactJS",
   "main": "index.js",
   "scripts": {
-    "build": "webpacl --config webpack.congig.js",
+    "build": "webpack --config webpack.congig.js",
     "docs": "start-storybook -p 9001 -c .storybook",
     "docs:build": "build-storybook -c .storybook -o docs"
   },
