@@ -1,5 +1,6 @@
 .vscode
 .storybook
 node_modules
-src
+src/
 webpack.config.js
+docs
